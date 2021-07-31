@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thou</title>
-  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
 
   <!-- update the version number as needed -->
   <script defer src="/__/firebase/8.8.1/firebase-app.js"></script>
@@ -27,10 +27,15 @@
       border-width: 1px;
       border-radius: 10px;
       border-color: lightgray;
+      overflow-x: hidden !important;
+    }
+
+    #container {
+      overflow-x: hidden !important;
     }
 
     @media (max-width: 400px) {
-      #heroImg{
+      #heroImg {
         width: 300px;
       }
     }
@@ -41,141 +46,145 @@
   <div style='width: 100%;text-align:center;'>
     <div style="margin:0px auto;">
       <h3>Hi. This page intros me briefly and lists some of the things I have built.</h3>
-      <p><a href="https://www.linkedin.com/in/adikancherla/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/nneverlander" target="_blank">Twitter</a></p>
+      <p><a href="https://www.linkedin.com/in/adikancherla/" target="_blank">LinkedIn</a>&nbsp;&nbsp;&nbsp;<a
+          href="https://twitter.com/nneverlander" target="_blank">Twitter</a></p>
       <img id="heroImg" src='img/thinking.gif' style="border-radius: 10px;">
     </div>
   </div>
-  <p>I am Adi (he/him). I am the founder of Mavrik labs and creator of the NFT Company. I studied CS in both undergrad and grad.
-    I went to UW-Madison for grad school and specialized in Distributed Systems. I previously worked at Oracle, Amazon
-    and Google. Below is a list of things I have built over the years:</p>
-  <h2>Mavrik labs:</h2>
-  <ul>
-    <li>NFT Company demo (June 2019): <a href="https://youtu.be/SbkAfji3dq0" target="_blank"
-        rel="noopener">https://youtu.be/SbkAfji3dq0</a></li>
-    <li>Landing page - ​​<a href="https://bitbucket.org/mavriklabs/landing-page" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/landing-page</a></li>
-    <li>Landing page 2 - <a href="https://bitbucket.org/mavriklabs/mavrik-landing-page" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/mavrik-landing-page</a></li>
-    <li>Landing page 3 - <a href="https://bitbucket.org/mavriklabs/landing-page-backend" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/landing-page-backend</a></li>
-    <li>Mavrik money Android - <a href="https://bitbucket.org/mavriklabs/mavrik-money-android" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-android</a></li>
-    <li>Mavrik money backend - <a href="https://bitbucket.org/mavriklabs/mavrik-money-backend" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-backend</a></li>
-    <li>Mavrik money ios - <a href="https://bitbucket.org/mavriklabs/mavrik-money-ios" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-ios</a></li>
-    <li>Mock apis - <a href="https://bitbucket.org/mavriklabs/builder-mock-apis" target="_blank"
-        rel="noopener">https://bitbucket.org/mavriklabs/builder-mock-apis</a></li>
-    <li>NFT Smart contracts: <a href="https://github.com/nneverlander/mavrik-contracts-backend" target="_blank"
-        rel="noopener">https://github.com/nneverlander/mavrik-contracts-backend</a></li>
-    <li>Satoshi treasure: <a href="https://github.com/nneverlander/satoshi-treasure" target="_blank"
-        rel="noopener">https://github.com/nneverlander/satoshi-treasure</a></li>
-    <li>MultiNFT - an ERC-1155 project: <a href="https://github.com/nneverlander/multinft-backend" target="_blank"
-        rel="noopener">https://github.com/nneverlander/multinft-backend</a></li>
-  </ul>
-  <h2>Picolo Labs:&nbsp;</h2>
-  <p>A decentralized database network to store queryable data. Meant to be used by Dapps built on blockchains. Raised
-    $2.2M in funding from top Silicon Valley investors.&nbsp;</p>
-  <ul>
-    <li>Whitepaper: &lt;Redacted&gt;. Apparently a non-related group tried to present Picolo as their own idea and almost
-      duped investors using the whitepaper. So the whitepaper is no longer public. Get in touch for access.&nbsp;</li>
-    <li>A predoc for the whitepaper is here: <a
-        href="https://docs.google.com/document/d/1U0byLVq3-wvurX99fU3RiKGaDFIuHKZgQrkI4tDRLtY/edit?usp=sharing"
-        target="_blank"
-        rel="noopener">https://docs.google.com/document/d/1U0byLVq3-wvurX99fU3RiKGaDFIuHKZgQrkI4tDRLtY/edit?usp=sharing</a>
-    </li>
-  </ul>
-  <p>Demos:</p>
-  <ul>
-    <li>Gas savings achieved by storing data offchain: <a href="https://www.youtube.com/watch?v=w8ayaB_HQ8A"
-        target="_blank" rel="noopener">https://www.youtube.com/watch?v=w8ayaB_HQ8A</a></li>
-    <li>Picolo vs Filecoin: <a href="https://www.youtube.com/watch?v=w8ayaB_HQ8A"
-      target="_blank" rel="noopener">https://youtu.be/qWKJZo2WghU</a></li>
-  </ul>
-  <p>Related code:</p>
-  <ul>
-    <li><a href="https://bitbucket.org/zzxcodes/picolonet-core" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/picolonet-core</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/picolonetbot" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/picolonetbot</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/picolo-wcef" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/picolo-wcef</a></li>
-  </ul>
-  <h2>Random:</h2>
-  <p>Can&rsquo;t remember what I wrote these functions for: <a
-      href="https://github.com/nneverlander/texfiles/blob/master/paper.pdf" target="_blank"
-      rel="noopener">https://github.com/nneverlander/texfiles/blob/master/paper.pdf</a></p>
-  <p>McAfee Pump n Dump bot: <a href="https://github.com/nneverlander/mcafeePnDbot" target="_blank"
-      rel="noopener">https://github.com/nneverlander/mcafeePnDbot</a></p>
-  <p>Bitmex trading bot: <a href="https://github.com/nneverlander/bmbx" target="_blank"
-      rel="noopener">https://github.com/nneverlander/bmbx</a> (private repo due to api keys, will make it public after
-    cleanup)</p>
-  <p>PDF form filler: <a href="https://bitbucket.org/mavriklabs/pdf-form-filler" target="_blank"
-      rel="noopener">https://bitbucket.org/mavriklabs/pdf-form-filler</a></p>
-  <p>Edge Compute: POC to distribute compute workloads to edge devices: <a
-      href="https://bitbucket.org/zzxcodes/edge-demo" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/edge-demo</a></p>
-  <p>Scripts: Handy zsh scripts: <a href="https://bitbucket.org/zzxcodes/files" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/files</a></p>
-  <p>Electroneum miner lmao:&nbsp;</p>
-  <ul>
-    <li><a href="https://bitbucket.org/zzxcodes/etnminer-pool" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/etnminer-pool</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/etnminer-frontend" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/etnminer-frontend</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/etnminer-backend" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/etnminer-backend</a></li>
-  </ul>
-  <p>Z Filesystem: <a href="https://bitbucket.org/zzxcodes/zfs" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/zfs</a></p>
-  <p>Wishbox - Google but takes action instead of just search:&nbsp;&nbsp;</p>
-  <ul>
-    <li><a href="https://bitbucket.org/zzxcodes/wishbox" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/wishbox</a></li>
-    <li><a href="https://youtu.be/ZyPnl71cbT4" target="_blank" rel="noopener">https://youtu.be/ZyPnl71cbT4</a></li>
-  </ul>
-  <p>VidyaMap - learning via visualizations: <a href="https://bitbucket.org/zzxcodes/vidyamap" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/vidyamap</a></p>
-  <p>Videoness - precursor to Snapchat Memories:&nbsp;</p>
-  <ul>
-    <li><a href="https://bitbucket.org/zzxcodes/videoness_apps" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/videoness_apps</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/videoness" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/videoness</a></li>
-  </ul>
-  <p>The OS: OS for the world of IoT: <a href="https://bitbucket.org/zzxcodes/theos" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/theos</a></p>
-  <p>TFTP: Some type of FTP: <a href="https://bitbucket.org/zzxcodes/tftp" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/tftp</a></p>
-  <p>SimpleDB - a Redis like DB: <a href="https://bitbucket.org/zzxcodes/simpledb" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/simpledb</a></p>
-  <p>My food truck - order food for pickup from trucks around the Amazon campus in Seatlle: <a
-      href="https://bitbucket.org/zzxcodes/myfoodtruck" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/myfoodtruck</a></p>
-  <p>Lucy - AI assistant inspired by the movie of the same name: <a href="https://bitbucket.org/zzxcodes/lucy"
-      target="_blank" rel="noopener">https://bitbucket.org/zzxcodes/lucy</a></p>
-  <p>Life, Universe and Everything: <a href="https://bitbucket.org/zzxcodes/lifeuniverseandeverything" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/lifeuniverseandeverything</a></p>
-  <p>Grublr - leftover food donation app</p>
-  <ul>
-    <li><a href="https://bitbucket.org/zzxcodes/grublraws" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/grublraws</a></li>
-    <li><a href="https://bitbucket.org/zzxcodes/grublr" target="_blank"
-        rel="noopener">https://bitbucket.org/zzxcodes/grublr</a></li>
-  </ul>
-  <p>Friend recommender: <a href="https://bitbucket.org/zzxcodes/friendrecommender_v1" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/friendrecommender_v1</a></p>
-  <p>DistriRPC - distributed RPC: <a href="https://bitbucket.org/zzxcodes/distrirpc" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/distrirpc</a></p>
-  <p>DistriJNA - high perf filesystem in userspace: <a href="https://bitbucket.org/zzxcodes/distrifuse" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/distrifuse</a></p>
-  <p>Book Genre Finder: <a href="https://bitbucket.org/zzxcodes/bookgenrefinder" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/bookgenrefinder</a></p>
-  <p>Atomize - Learn new concepts by breaking them down into the smallest pieces: <a
-      href="https://bitbucket.org/zzxcodes/atomize" target="_blank"
-      rel="noopener">https://bitbucket.org/zzxcodes/atomize</a></p>
+  <div id='container'>
+    <p>I am Adi (he/him). I am the founder of Mavrik labs and creator of the NFT Company. I studied CS in both undergrad
+      and grad.
+      I went to UW-Madison for grad school and specialized in Distributed Systems. I previously worked at Oracle, Amazon
+      and Google. Below is a list of things I have built over the years:</p>
+    <h2>Mavrik labs:</h2>
+    <ul>
+      <li>NFT Company demo (June 2019): <a href="https://youtu.be/SbkAfji3dq0" target="_blank"
+          rel="noopener">https://youtu.be/SbkAfji3dq0</a></li>
+      <li>Landing page - ​​<a href="https://bitbucket.org/mavriklabs/landing-page" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/landing-page</a></li>
+      <li>Landing page 2 - <a href="https://bitbucket.org/mavriklabs/mavrik-landing-page" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/mavrik-landing-page</a></li>
+      <li>Landing page 3 - <a href="https://bitbucket.org/mavriklabs/landing-page-backend" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/landing-page-backend</a></li>
+      <li>Mavrik money Android - <a href="https://bitbucket.org/mavriklabs/mavrik-money-android" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-android</a></li>
+      <li>Mavrik money backend - <a href="https://bitbucket.org/mavriklabs/mavrik-money-backend" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-backend</a></li>
+      <li>Mavrik money ios - <a href="https://bitbucket.org/mavriklabs/mavrik-money-ios" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/mavrik-money-ios</a></li>
+      <li>Mock apis - <a href="https://bitbucket.org/mavriklabs/builder-mock-apis" target="_blank"
+          rel="noopener">https://bitbucket.org/mavriklabs/builder-mock-apis</a></li>
+      <li>NFT Smart contracts: <a href="https://github.com/nneverlander/mavrik-contracts-backend" target="_blank"
+          rel="noopener">https://github.com/nneverlander/mavrik-contracts-backend</a></li>
+      <li>Satoshi treasure: <a href="https://github.com/nneverlander/satoshi-treasure" target="_blank"
+          rel="noopener">https://github.com/nneverlander/satoshi-treasure</a></li>
+      <li>MultiNFT - an ERC-1155 project: <a href="https://github.com/nneverlander/multinft-backend" target="_blank"
+          rel="noopener">https://github.com/nneverlander/multinft-backend</a></li>
+    </ul>
+    <h2>Picolo Labs:&nbsp;</h2>
+    <p>A decentralized database network to store queryable data. Meant to be used by Dapps built on blockchains. Raised
+      $2.2M in funding from top Silicon Valley investors.&nbsp;</p>
+    <ul>
+      <li>Whitepaper: &lt;Redacted&gt;. Apparently a non-related group tried to present Picolo as their own idea and
+        almost
+        duped investors using the whitepaper. So the whitepaper is no longer public. Get in touch for access.&nbsp;</li>
+      <li>A predoc for the whitepaper is here: <a
+          href="https://docs.google.com/document/d/1U0byLVq3-wvurX99fU3RiKGaDFIuHKZgQrkI4tDRLtY/edit?usp=sharing"
+          target="_blank"
+          rel="noopener">https://docs.google.com/document/d/1U0byLVq3-wvurX99fU3RiKGaDFIuHKZgQrkI4tDRLtY/edit?usp=sharing</a>
+      </li>
+    </ul>
+    <p>Demos:</p>
+    <ul>
+      <li>Gas savings achieved by storing data offchain: <a href="https://www.youtube.com/watch?v=w8ayaB_HQ8A"
+          target="_blank" rel="noopener">https://www.youtube.com/watch?v=w8ayaB_HQ8A</a></li>
+      <li>Picolo vs Filecoin: <a href="https://www.youtube.com/watch?v=w8ayaB_HQ8A" target="_blank"
+          rel="noopener">https://youtu.be/qWKJZo2WghU</a></li>
+    </ul>
+    <p>Related code:</p>
+    <ul>
+      <li><a href="https://bitbucket.org/zzxcodes/picolonet-core" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/picolonet-core</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/picolonetbot" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/picolonetbot</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/picolo-wcef" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/picolo-wcef</a></li>
+    </ul>
+    <h2>Random:</h2>
+    <p>Can&rsquo;t remember what I wrote these functions for: <a
+        href="https://github.com/nneverlander/texfiles/blob/master/paper.pdf" target="_blank"
+        rel="noopener">https://github.com/nneverlander/texfiles/blob/master/paper.pdf</a></p>
+    <p>McAfee Pump n Dump bot: <a href="https://github.com/nneverlander/mcafeePnDbot" target="_blank"
+        rel="noopener">https://github.com/nneverlander/mcafeePnDbot</a></p>
+    <p>Bitmex trading bot: <a href="https://github.com/nneverlander/bmbx" target="_blank"
+        rel="noopener">https://github.com/nneverlander/bmbx</a> (private repo due to api keys, will make it public after
+      cleanup)</p>
+    <p>PDF form filler: <a href="https://bitbucket.org/mavriklabs/pdf-form-filler" target="_blank"
+        rel="noopener">https://bitbucket.org/mavriklabs/pdf-form-filler</a></p>
+    <p>Edge Compute: POC to distribute compute workloads to edge devices: <a
+        href="https://bitbucket.org/zzxcodes/edge-demo" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/edge-demo</a></p>
+    <p>Scripts: Handy zsh scripts: <a href="https://bitbucket.org/zzxcodes/files" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/files</a></p>
+    <p>Electroneum miner lmao:&nbsp;</p>
+    <ul>
+      <li><a href="https://bitbucket.org/zzxcodes/etnminer-pool" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/etnminer-pool</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/etnminer-frontend" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/etnminer-frontend</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/etnminer-backend" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/etnminer-backend</a></li>
+    </ul>
+    <p>Z Filesystem: <a href="https://bitbucket.org/zzxcodes/zfs" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/zfs</a></p>
+    <p>Wishbox - Google but takes action instead of just search:&nbsp;&nbsp;</p>
+    <ul>
+      <li><a href="https://bitbucket.org/zzxcodes/wishbox" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/wishbox</a></li>
+      <li><a href="https://youtu.be/ZyPnl71cbT4" target="_blank" rel="noopener">https://youtu.be/ZyPnl71cbT4</a></li>
+    </ul>
+    <p>VidyaMap - learning via visualizations: <a href="https://bitbucket.org/zzxcodes/vidyamap" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/vidyamap</a></p>
+    <p>Videoness - precursor to Snapchat Memories:&nbsp;</p>
+    <ul>
+      <li><a href="https://bitbucket.org/zzxcodes/videoness_apps" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/videoness_apps</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/videoness" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/videoness</a></li>
+    </ul>
+    <p>The OS: OS for the world of IoT: <a href="https://bitbucket.org/zzxcodes/theos" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/theos</a></p>
+    <p>TFTP: Some type of FTP: <a href="https://bitbucket.org/zzxcodes/tftp" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/tftp</a></p>
+    <p>SimpleDB - a Redis like DB: <a href="https://bitbucket.org/zzxcodes/simpledb" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/simpledb</a></p>
+    <p>My food truck - order food for pickup from trucks around the Amazon campus in Seatlle: <a
+        href="https://bitbucket.org/zzxcodes/myfoodtruck" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/myfoodtruck</a></p>
+    <p>Lucy - AI assistant inspired by the movie of the same name: <a href="https://bitbucket.org/zzxcodes/lucy"
+        target="_blank" rel="noopener">https://bitbucket.org/zzxcodes/lucy</a></p>
+    <p>Life, Universe and Everything: <a href="https://bitbucket.org/zzxcodes/lifeuniverseandeverything" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/lifeuniverseandeverything</a></p>
+    <p>Grublr - leftover food donation app</p>
+    <ul>
+      <li><a href="https://bitbucket.org/zzxcodes/grublraws" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/grublraws</a></li>
+      <li><a href="https://bitbucket.org/zzxcodes/grublr" target="_blank"
+          rel="noopener">https://bitbucket.org/zzxcodes/grublr</a></li>
+    </ul>
+    <p>Friend recommender: <a href="https://bitbucket.org/zzxcodes/friendrecommender_v1" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/friendrecommender_v1</a></p>
+    <p>DistriRPC - distributed RPC: <a href="https://bitbucket.org/zzxcodes/distrirpc" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/distrirpc</a></p>
+    <p>DistriJNA - high perf filesystem in userspace: <a href="https://bitbucket.org/zzxcodes/distrifuse"
+        target="_blank" rel="noopener">https://bitbucket.org/zzxcodes/distrifuse</a></p>
+    <p>Book Genre Finder: <a href="https://bitbucket.org/zzxcodes/bookgenrefinder" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/bookgenrefinder</a></p>
+    <p>Atomize - Learn new concepts by breaking them down into the smallest pieces: <a
+        href="https://bitbucket.org/zzxcodes/atomize" target="_blank"
+        rel="noopener">https://bitbucket.org/zzxcodes/atomize</a></p>
   </div>
-  
+
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
