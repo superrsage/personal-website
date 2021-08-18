@@ -7,16 +7,6 @@
   <title>Thou</title>
   <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
 
-  <!-- update the version number as needed -->
-  <script defer src="/__/firebase/8.8.1/firebase-app.js"></script>
-  <!-- include only the Firebase features as you need -->
-  <script defer src="/__/firebase/8.8.1/firebase-analytics.js"></script>
-  <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-  <script defer src="/__/firebase/init.js?useEmulator=false"></script>
-
   <style media="screen">
     body {
       background: #ECEFF1;
@@ -52,8 +42,8 @@
     </div>
   </div>
   <div id='container'>
-    <p>I am Adi (he/him). I am the founder of Mavrik labs and creator of the <a href="https://nftcompany.com" target="_blank"
-      rel="noopener">NFT Company.</a> I studied CS in both undergrad
+    <p>I am Adi (he/him). I am the founder of Mavrik labs and creator of the <a href="https://nftcompany.com"
+        target="_blank" rel="noopener">NFT Company.</a> I studied CS in both undergrad
       and grad.
       I went to UW-Madison for grad school and specialized in Distributed Systems. I previously worked at Oracle, Amazon
       and Google. Below is a list of things I have built over the years:</p>
@@ -186,6 +176,13 @@
         rel="noopener">https://bitbucket.org/zzxcodes/atomize</a></p>
   </div>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+
   <script>
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -202,7 +199,7 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
-  
+
   <!-- <script>
     document.addEventListener('DOMContentLoaded', function () {
       const loadEl = document.querySelector('#load');
